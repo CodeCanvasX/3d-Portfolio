@@ -24,27 +24,31 @@ export const EXPERIENCE = {
   },
   items: [
     {
-      url: 'websites-preview/optic-logo.png',
-      websiteURL: 'https://optic.id/',
+      url: 'websites-preview/b706fa17832e8854ee125404a655f0df.jpeg',
+      websiteURL: 'website5/index.html',
     },
     {
-      url: 'websites-preview/good-dollar.jpeg',
-      websiteURL: 'https://www.gooddollar.org/',
+      url: 'websites-preview/wp2832625.webp',
+      websiteURL: 'https://en.wikipedia.org/wiki/Honda',
     },
     {
-      url: 'websites-preview/cs2.png',
+      url: 'websites-preview/free-google-2719775-2265521.webp',
       websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/cs.html', //optional open url in new tab
+        'website4/index.html', //optional open url in new tab
     },
     {
-      url: 'websites-preview/knack-page.png',
+      url: 'websites-preview/5968260.png',
       websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/knack.html',
+        'https://bitcoin.org/bitcoin.pdf',
     },
     {
-      url: 'websites-preview/magic.png',
+      url: 'websites-preview/NASA_logo.svg.png',
       websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/magic-app.html',
+        'https://www.nasa.gov/',
+    },
+    {
+      url: 'websites-preview/Stanford-University-Logo.jpeg',
+      websiteURL: 'https://codeinplace.stanford.edu/teach/home',
     },
   ],
 };
@@ -58,16 +62,16 @@ export const SKILLS_LIST = {
   items: [
     { url: 'icons/react-native.png', websiteURL: null },
     { url: 'icons/react-logo.png', websiteURL: null },
-    { url: 'icons/ts-logo.png', websiteURL: null },
+    { url: 'icons/5572192.png', websiteURL: null },
     { url: 'icons/js-logo.png', websiteURL: null },
     { url: 'icons/css-logo.png', websiteURL: null },
     { url: 'icons/html-logo.png', websiteURL: null },
     { url: 'icons/node-js-logo.png', websiteURL: null },
     { url: 'icons/python-logo.png', websiteURL: null },
-    { url: 'icons/three-js-logo.png', websiteURL: null },
+    { url: 'icons/12942037.png', websiteURL: null },
     { url: 'icons/jest-logo.png', websiteURL: null },
     { url: 'icons/graph-ql-logo.png', websiteURL: null },
-    { url: 'icons/vim-logo.png', websiteURL: null },
+    { url: 'icons/free-blockchain-2-411041.png', websiteURL: null },
   ],
 };
 
@@ -78,14 +82,14 @@ export const STOPS = [
     displayPosition: 0.13,
     displayPositionOffset: -0.04,
     displayPositionOffsetEnd: -0.02,
-    name: 'About',
+    name: 'About Me',
   },
   {
     position: 0.2137,
     displayPosition: 0.2007,
     displayPositionOffset: -0.03,
     displayPositionOffsetEnd: -0.07,
-    name: 'Experience',
+    name: 'Experience and Credentials',
   },
   {
     position: 0.2982,
@@ -106,7 +110,7 @@ export const STOPS = [
     displayPosition: 0.29,
     displayPositionOffset: 0.18,
     displayPositionOffsetEnd: -0.15,
-    name: 'Personal Projects',
+    name: 'Education',
   },
   {
     position: 0.592,
@@ -120,7 +124,7 @@ export const STOPS = [
     displayPosition: 1,
     displayPositionOffset: 0.03,
     displayPositionOffsetEnd: 0,
-    name: 'Profile Picture',
+    name: 'Personal Avatar', //Profile Picture
   },
 ];
 

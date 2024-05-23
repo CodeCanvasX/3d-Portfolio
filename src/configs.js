@@ -7,8 +7,8 @@ import {
 } from './constants/pageData';
 
 const configs = {
-  title: 'Tomas Gonzalez',
-  subTitle: 'Dev portfolio.',
+  title: 'Soubhagya Paul',
+  subTitle: 'Portfolio',
   stars: {
     maxSize: 20,
     emissionIntencity: 40,
@@ -16,28 +16,28 @@ const configs = {
     // url: 'icons/three-js-logo.png',
     dencity: 900,
   },
-  navTitle: 'Tomas Gonzalez portfolio.',
+  navTitle: 'Hello IU, Welcome to my Galaxy!',
   relevantStops: STOPS,
   pages: [
     {
       scale: 15,
       rotation: [Math.PI, 0, Math.PI],
       position: [0, 0, -PAGE_DEPH_MARGIN],
-      displayAt: displayAt('About'),
+      displayAt: displayAt('About Me'),
       title: 'Who Am I?',
       infos: [
-        "* I'm a maker, a curious thinker who enjoys learning and comprehending how things function.",
-        '* My journey as a software developer started when I was a just a kid trying to figure out how video games where made.',
-        '* I started my career as a front-end developer around 6 years ago in 2017, and since then I have helped many startup companies and non-profit organizations to develop quality products.',
+        "* I'm a driven individual with entrepreneurial experience, a strong interest in global markets, particularly in stocks and cryptocurrencies, and love for technology.",
+        '* My entrepreneurial journey has equipped me with innovation and leadership skills, while my fascination with global markets extends to tracking economic trends and exploring stock market and cryptocurrency.',
+        '* From coding to staying updated on the latest crypto innovations, my love for technology propels me forward, offering a unique perspective to any challenge.',
         '* I have a wide range of skills, of which I can say that I’ve mastered many.',
       ],
     },
     {
       scale: 15,
-      displayAt: displayAt('Experience'),
+      displayAt: displayAt('Experience and Credentials'),
       rotation: [0, -Math.PI / 2, 0],
       position: [-PAGE_DEPH_MARGIN, 0, 0],
-      title: 'Experience',
+      title: 'Experience and Credentials',
       imageList: EXPERIENCE,
       footer: 'You can click the icons to find out more.',
     },
@@ -55,7 +55,7 @@ const configs = {
       displayAt: displayAt('Download CV'),
       rotation: [0, 0, 0],
       position: [0, 0, PAGE_DEPH_MARGIN],
-      title: 'Here is my CV!',
+      title: 'Here is my Resume!',
       footer: 'Click the icon above to view!',
       imageList: {
         rows: 1,
@@ -67,49 +67,41 @@ const configs = {
           {
             url: 'icons/resume.png',
             websiteURL:
-              'https://docs.google.com/document/d/1wKGkXHhd7q5v3AOGPMK6Gtehpp_Tkp90BvUufUqQIRc/edit?usp=sharing',
+              'https://www.canva.com/design/DAGEObdmPzU/_abXq78JbTuWsTOGz7Iudg/edit',
           },
         ],
       },
     },
     {
       scale: 15,
-      displayAt: displayAt('Personal Projects'),
+      displayAt: displayAt('Education'),
       rotation: [Math.PI / 2, 0, 0],
       position: [0, -PAGE_DEPH_MARGIN, 0],
-      title: 'Personal Projects',
-      footer: '(And also this web-app)',
+      title: 'Education',
+      infos:  [
+              "* Secondary Education - The Heritage - School, 2022.",
+              "* Higher Secondary Education - University Grants Commission (UGC) . Completing Higher Secondary Education at UGC in 2024, expecting results - July.",
+      ],
+      footer: 'See you soon International University of Applied Sciences.',
       imageList: {
-        rows: 2,
+        rows: 1, //2
         separation: 2.5,
-        leftPadding: -0.4,
-        topPadding: 0.2,
+        leftPadding: -0.40, //40
+        topPadding: -0.33, //0.20
         scale: 0.3,
         items: [
           {
-            url: 'websites-preview/nft-place-logo.png',
-            websiteURL: 'https://nft-place.xyz/',
+            url: 'websites-preview/UGC_India_Logo.png',
+            websiteURL: null,
           },
           {
-            url: 'websites-preview/snow-hero.png',
-            websiteURL: 'https://powtom48.itch.io/snow-the-hero',
+            url: 'websites-preview/images.jpeg',
+            websiteURL: null,
           },
           {
-            url: 'websites-preview/minecraft-in-js.png',
+            url: 'websites-preview/1700119806-IU-International-University-of-Applied-Sciences-logo.webp',
             websiteURL:
-              'https://www.youtube.com/watch?v=yOUQquusyiY&t=123s&ab_channel=tomugon',
-          },
-          {
-            url: 'websites-preview/fish-chopter.png',
-            websiteURL: 'https://powtom48.itch.io/fishcopter',
-          },
-          {
-            url: 'websites-preview/odd-clowns.png',
-            websiteURL: 'https://oddclowns.com/',
-          },
-          {
-            url: 'websites-preview/island-ai.png',
-            websiteURL: 'https://www.instagram.com/island.ai/',
+              null,
           },
         ],
       },
@@ -119,31 +111,18 @@ const configs = {
       displayAt: displayAt('Get In Touch'),
       rotation: [0, Math.PI / 2, 0],
       position: [PAGE_DEPH_MARGIN, 0, 0],
-      title: 'You can find me in:',
+      title: 'Contact Me',
       footer: 'Almost done but keep scrolling :)',
       imageList: {
-        rows: 2,
+        rows: 1,
         separation: 1.8,
-        leftPadding: -0.25,
-        topPadding: 0.2,
-        scale: 0.3,
+        leftPadding: -0.00, //-0.25
+        topPadding: 0.02, //0.2
+        scale: 0.4, //0.5
         items: [
           {
-            url: 'icons/twitter.png',
-            websiteURL: 'https://twitter.com/kiter_js',
-          },
-          {
-            url: 'icons/linkedin.png',
-            websiteURL:
-              'https://www.linkedin.com/in/tomas-gonzalez-perez-8784a2133/',
-          },
-          {
-            url: 'icons/github.png',
-            websiteURL: 'https://github.com/TomasGonzalez',
-          },
-          {
-            url: 'icons/email.png',
-            websiteURL: 'mailto:tomasgp14@gmail.com',
+            url: 'icons/free-google-mail-new-4762011-3955524.png',
+            websiteURL: 'mailto:soubhagya.html@gmail.com',
           },
         ],
       },
